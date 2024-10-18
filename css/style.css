@@ -97,7 +97,20 @@ header #hamburger-menu:hover {
     border-radius: 100%;
     overflow: hidden;
     box-shadow: 0px 4px 8px 10px rgb(116, 116, 1);
+    animation: imageflow  4s ease-in-out infinite;
 }
+@keyframes imageflow {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-2.4rem);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
 
 .gambar-hero img:hover {
     border-radius: 50px;
