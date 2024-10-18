@@ -383,6 +383,21 @@ header #hamburger-menu:hover {
     text-align: center;
     width: 170px;
 }
+.gambar-skills .html, .css, .python, 
+.php, .javaScript, .bootsrap {
+    animation: mengambang 4s ease-in-out infinite;
+}
+@keyframes mengambang {
+    0% {
+        transform: translateY(2);
+    }
+    50% {
+        transform: translateY(-2.4rem);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
 .hereme-skills a {
     text-decoration: none;
     font-weight: bold;
@@ -612,6 +627,7 @@ footer .credit a {
     .hero .gambar-hero {
         text-align: center;
         padding-top: 8px;
+        margin-top: 30px;
     }
     .skills {
         display: inline-block;
