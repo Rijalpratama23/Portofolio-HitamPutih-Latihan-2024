@@ -686,6 +686,16 @@ footer .credit a {
         display: block;
         padding: 30px;
     }
+    .linkdetail {
+        display: flex;
+        justify-content: center;
+    }
+    .linkdetail .smk, .univers {
+        text-align: center;
+    }
+    .smk span, .univers span {
+        display: none;
+    }
     .contact .row {
         display: block;
         flex-wrap: wrap;
