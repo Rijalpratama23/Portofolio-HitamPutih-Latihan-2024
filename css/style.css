@@ -693,6 +693,9 @@ footer .credit a {
     .linkdetail .smk, .univers {
         text-align: center;
     }
+    #container-smk {
+        width: 260px;
+    }
     .smk span, .univers span {
         display: none;
     }
