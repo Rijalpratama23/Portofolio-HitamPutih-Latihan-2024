@@ -451,6 +451,12 @@ header #hamburger-menu:hover {
     padding: 12px;
     justify-content: space-between;
 }
+.linkdetail .smk a span {
+    color: black;
+}
+.linkdetail .univers a span {
+    color: black;
+}
 .container-education .linkdetail 
 .smk a {
     display: inline;
@@ -472,6 +478,7 @@ header #hamburger-menu:hover {
     display: inline;
     justify-content: left;
     text-decoration: none;
+    text-align: center;
     color: var(--bg);
     font-weight: bold;
     background-color: var(--var);
@@ -690,11 +697,12 @@ footer .credit a {
         display: flex;
         justify-content: center;
     }
-    .linkdetail .smk, .univers {
+    .linkdetail .univers {
         text-align: center;
     }
     #container-smk {
-        width: 260px;
+        width: 264px;
+        text-align: start;
     }
     .smk span, .univers span {
         display: none;
