@@ -81,6 +81,7 @@ header #hamburger-menu {
 header #hamburger-menu:hover {
     color: var(--var);
     transition: .3s ease-in-out;
+    cursor: pointer;
 }
 
 /* HERO STAR */
